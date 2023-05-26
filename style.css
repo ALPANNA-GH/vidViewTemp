@@ -1,5 +1,9 @@
+@font-face{
+  font-family: CabinSketchB;
+  src: url("CabinSketch-Bold.ttf");
+}
 
-body {
+body{
   padding-top: 50px !important;
   background-color: darkslategrey;
   display: flex;
@@ -10,16 +14,21 @@ body {
   justify-content:space-around;
 }
 
-#mainsec {
+#mainsec{
   margin-top: 50px !important;
   display: block;
   width: 70%;
   height:max-content;
   padding: 10px;
-  border-radius: 15px;
-  border: 2px solid  aqua;
   justify-content:space-around;
 }
+
+#descbody{
+height: 30px;
+width: 350px;
+overflow: hidden;
+}
+
 embed{
   border-radius: 15px;
 }
@@ -30,6 +39,7 @@ embed{
   width: 25%;
   height:max-content;
   padding:10px;
+  margin-right: 10px;
   border-radius: 15px;
   border: 2px solid  aqua;
   justify-content:space-around;
@@ -44,6 +54,9 @@ a{
 a:hover{
   color: aqua;
   padding: 2px 25px;
-  border: 1px solid aqua;
+  cursor: pointer;
+}
+.showmore{
+  display: inline;
 }
 
