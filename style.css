@@ -29,9 +29,21 @@ embed{
   display: block;
   width: 25%;
   height:max-content;
-  padding: 5px;
+  padding:10px;
   border-radius: 15px;
   border: 2px solid  aqua;
-  justify-content:left;
+  justify-content:space-around;
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+  padding: 2px 25px;
+}
+
+a:hover{
+  color: aqua;
+  padding: 2px 25px;
+  border: 1px solid aqua;
 }
 
