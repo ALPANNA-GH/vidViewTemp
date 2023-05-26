@@ -1,0 +1,62 @@
+@font-face{
+  font-family: CabinSketchB;
+  src: url("CabinSketch-Bold.ttf");
+}
+
+body{
+  padding-top: 50px !important;
+  background-color: darkslategrey;
+  display: flex;
+  width: 100%;
+  height: max-content;
+  height: -moz-max-content;
+  overflow-x: hidden;
+  justify-content:space-around;
+}
+
+#mainsec{
+  margin-top: 50px !important;
+  display: block;
+  width: 70%;
+  height:max-content;
+  padding: 10px;
+  justify-content:space-around;
+}
+
+#descbody{
+height: 30px;
+width: 350px;
+overflow: hidden;
+}
+
+embed{
+  border-radius: 15px;
+}
+
+#sidesec{
+  margin-top: 50px !important;
+  display: block;
+  width: 25%;
+  height:max-content;
+  padding:10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px solid  aqua;
+  justify-content:space-around;
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+  padding: 2px 25px;
+}
+
+a:hover{
+  color: aqua;
+  padding: 2px 25px;
+  cursor: pointer;
+}
+.showmore{
+  display: inline;
+}
+
